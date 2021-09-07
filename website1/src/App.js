@@ -144,7 +144,11 @@ function App() {
           
       </body>
 
+      <footer>
+        <p>This page was created by Travis Sherman</p>
+      </footer>
     </div>
+
   );
 }
 
