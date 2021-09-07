@@ -19,7 +19,7 @@ function App() {
         </div>
         
         <section classname="media">
-          <iframe width="75%" height="515" 
+          <iframe width="75%" height="515" //To autoplay a youtube video I added autoplay=1 to the src link below
             src="https://www.youtube.com/embed/3BOuz4dBkkE?start=25&autoplay=1&mute=1" title="Gunna Baby Birkin">
               Your browser does not allow video.
           </iframe>
