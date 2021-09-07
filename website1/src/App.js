@@ -11,6 +11,13 @@ function App() {
       <body>
         <div>
           <h2>About Gunna's Lifestyle</h2>
+
+          <nav>
+            <a href="https://www.instagram.com/gunna/?hl=en" target="_blank" rel="noreferrer">Instagram</a> |
+            <a href="https://twitter.com/1gunnagunna?lang=en" target="_blank" rel="noreferrer">Twitter</a> |
+            <a href="https://www.youtube.com/channel/UCAkIMkEaa9sZmjcy7mfd5lQ" target="_blank" rel="noreferrer">Youtube</a> |
+            <a href="https://www.facebook.com/gunnaofficial/" target="_blank" rel="noreferrer">Facebook</a>
+          </nav>
           <ul>
             <li>Named Sergio Giavanni Kitchens</li>
             <li>Born June 14, 1993 (age 28 years) in College Park, Ga</li>
@@ -39,6 +46,10 @@ function App() {
 
             <li>
               <a href="https://hypebeast.com/2020/6/gunna-wunna-album-interview" target="_blank" rel="noreferrer">Gunna talks about most recent album 'Wunna'</a>
+            </li>
+
+            <li>
+              <a href="https://www.interviewmagazine.com/music/gunna-and-young-thug-share-rules-to-live-by-smoke-after-sex-keep-your-kitchen-lit" target="_blank" rel="noreferrer">Gunna and Young Thug talk about Rules to Live By</a>
             </li>
           </ul>
         </div>
