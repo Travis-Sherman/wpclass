@@ -51,9 +51,6 @@ function Home() {
                         <a href="https://hypebeast.com/2020/6/gunna-wunna-album-interview" target="_blank" rel="noreferrer">Gunna talks about most recent album 'Wunna'</a>
                         </li>
 
-                        <li>
-                        <a href="https://www.interviewmagazine.com/music/gunna-and-young-thug-share-rules-to-live-by-smoke-after-sex-keep-your-kitchen-lit" target="_blank" rel="noreferrer">Gunna and Young Thug talk about Rules to Live By</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -73,9 +70,6 @@ function Home() {
                             <a  className ="a" href="https://www.youtube.com/channel/UCAkIMkEaa9sZmjcy7mfd5lQ" target="_blank" rel="noreferrer">Youtube</a>
                         </li>
 
-                        <li>
-                            <a  className ="a" href="https://www.facebook.com/gunnaofficial/" target="_blank" rel="noreferrer">Facebook</a>
-                        </li>
                     </ul>
 
                         
