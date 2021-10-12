@@ -28,33 +28,38 @@ function Home() {
 
             <section>
                 <div>
+                  <section align-content="center">
                     <h2>About</h2>
                     <ul>
                         <li>Named Sergio Giavanni Kitchens</li>
-                        <li>Born June 14, 1993 (age 28 years) in College Park, Ga</li>
-                        <li>Heavily Associated with YSL, Young Thug, Lil Baby</li>
+                        <li>Born June 14, 1993 in College Park, Ga</li>
+                        <li>Heavily Associated with YSL and Lil Baby</li>
                     </ul>
+                  </section>
                 </div>
 
                 <div>
-                    <h2>Interviews</h2>
-                    <ul>
-                        <li>
-                        <a href="https://youtu.be/_hYs5I__DKo" target="_blank" rel="noreferrer">10 Things Gunna Can't Live Without</a>
-                        </li>
+                    <section>
+                      <h2>Interviews</h2>
+                      <ul>
+                          <li>
+                          <a href="https://youtu.be/_hYs5I__DKo" target="_blank" rel="noreferrer">10 Things Gunna Can't Live Without</a>
+                          </li>
 
-                        <li>
-                        <a href="https://youtu.be/cCQf-pJRmtU" target="_blank" rel="noreferrer">Gunna's Worst and Best Purchases</a>
-                        </li>
+                          <li>
+                          <a href="https://youtu.be/cCQf-pJRmtU" target="_blank" rel="noreferrer">Gunna's Worst and Best Purchases</a>
+                          </li>
 
-                        <li>
-                        <a href="https://hypebeast.com/2020/6/gunna-wunna-album-interview" target="_blank" rel="noreferrer">Gunna talks about most recent album 'Wunna'</a>
-                        </li>
+                          <li>
+                          <a href="https://hypebeast.com/2020/6/gunna-wunna-album-interview" target="_blank" rel="noreferrer">Gunna talks about 'Wunna'</a>
+                          </li>
 
-                    </ul>
+                      </ul>
+                    </section>
                 </div>
 
                 <div>
+                  <section>
                     <h2>Social Media</h2>
 
                     <ul>
@@ -69,13 +74,9 @@ function Home() {
                         <li>
                             <a  className ="a" href="https://www.youtube.com/channel/UCAkIMkEaa9sZmjcy7mfd5lQ" target="_blank" rel="noreferrer">Youtube</a>
                         </li>
-
                     </ul>
+                    </section>
 
-                        
-                        
-
-                    
                 </div>
                 
             </section>
