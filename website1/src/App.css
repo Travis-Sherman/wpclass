@@ -9,10 +9,12 @@
 .mediaSize {
   height: 50%;
 }
-table {
+.table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  margin-left: 4.225rem;
+  margin-right: 1rem;
 }
 
 td,
@@ -20,6 +22,20 @@ th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+th {
+  color: #fff;
+  text-align: center;
+  background-color: #4b8115;
+  border: 1px solid black;
+}
+
+td {
+  background-color: #dae7cd;
+  color: #000;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .ranking {
@@ -51,6 +67,7 @@ section div {
 
 section h2 {
   display: inline-block;
+  text-align: center;
 }
 header nav a {
   margin-right: 25px;
@@ -96,4 +113,11 @@ ul li {
 img {
   max-height: 300px;
   max-width: 450px;
+}
+
+div ul {
+  width: 300px;
+  border: 15px;
+  padding: 30px;
+  margin: 10px;
 }

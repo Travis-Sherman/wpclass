@@ -27,8 +27,9 @@ export default function Albums(){
 
             <body>
             <div>
-          <h2 className="header2">Gunna Has Charted Multiple Times in His Career and isn't Slowing Down Anytime Soon.</h2>
-          <table classname="table">
+          <h2 className="header2">Gunna's Projects</h2>
+          <p>Gunna Has Charted Multiple Times in His Career and isn't Slowing Down Anytime Soon.</p>
+          <table class="table">
             <tr>
               <th>Name</th>
               <th>Type</th>
