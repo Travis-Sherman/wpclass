@@ -13,7 +13,7 @@ function Home() {
   return (
  <div>
     <header>
-        <h1>Gunna Wunna Drip</h1> 
+        <h1 style={{textAlign:"center"}}>Gunna Wunna Drip</h1> 
         <nav>
           <a className="currenttab" href="/">Home</a>
           <a href="/FavSongs">Favortie Songs</a>
@@ -28,7 +28,7 @@ function Home() {
 
             <section>
                 <div>
-                  <section align-content="center">
+                  <section style={{alignItems:"center"}}>
                     <ul>
                         <li>Named Sergio Giavanni Kitchens</li>
                         <li>Born June 14, 1993 in College Park, Ga</li>

@@ -108,6 +108,7 @@ li a {
 
 ul li {
   text-align: left;
+  margin-left: 20px;
 }
 
 img {
@@ -116,8 +117,14 @@ img {
 }
 
 div ul {
-  width: 300px;
   border: 15px;
   padding: 30px;
   margin: 10px;
+  margin-left: 20px;
+}
+
+section ul {
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
