@@ -29,7 +29,6 @@ function Home() {
             <section>
                 <div>
                   <section align-content="center">
-                    <h2>About</h2>
                     <ul>
                         <li>Named Sergio Giavanni Kitchens</li>
                         <li>Born June 14, 1993 in College Park, Ga</li>
@@ -40,7 +39,6 @@ function Home() {
 
                 <div>
                     <section>
-                      <h2>Interviews</h2>
                       <ul>
                           <li>
                           <a href="https://youtu.be/_hYs5I__DKo" target="_blank" rel="noreferrer">10 Things Gunna Can't Live Without</a>
@@ -60,8 +58,6 @@ function Home() {
 
                 <div>
                   <section>
-                    <h2>Social Media</h2>
-
                     <ul>
                         <li>
                             <a className ="a" href="https://www.instagram.com/gunna/?hl=en" target="_blank" rel="noreferrer">Instagram</a>
