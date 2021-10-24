@@ -20,6 +20,7 @@ export default function Drip(){
                 </nav>
             </header>
             <body id="body">
+                <h2>Gunna's Drip has influenced many people around the world</h2>
                 <div id = "image">
                     Hover over an image below to display here.
                 </div>
