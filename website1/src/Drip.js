@@ -40,7 +40,7 @@ export default function Drip(){
             </body>
 
             <footer>
-                <p>This </p>
+                <p>This page was created by Travis Sherman</p>
             </footer>
         </div>
     );
