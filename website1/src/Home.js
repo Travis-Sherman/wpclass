@@ -1,13 +1,6 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import FavSongs from './FavSongs.js';
-import Albums from './Albums';
-import Drip from './Drip';
+
+
 
 function Home() {
   return (
@@ -19,6 +12,7 @@ function Home() {
           <a href="/FavSongs">Favortie Songs</a>
           <a href="/Albums">Albums</a>
           <a href="/Drip">Drip</a>
+          <a href="/Purchase">Purchase</a>
         </nav>
       </header>
     

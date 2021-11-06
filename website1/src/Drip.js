@@ -1,5 +1,4 @@
 import './App.css'
-import Home from './App.js'
 import Drip1 from './images/gunnaDrip1.jpg';
 import Drip2 from './images/gunnaDrip2.jpg';
 import Drip3 from './images/gunnaDrip3.jpg';
@@ -17,6 +16,7 @@ export default function Drip(){
                     <a href="/FavSongs">Favortie Songs</a>
                     <a href="/Albums">Albums</a>
                     <a className="currenttab" href="/Drip">Drip</a>
+                    <a href="/Purchase">Purchase</a>
                 </nav>
             </header>
             <body id="body">

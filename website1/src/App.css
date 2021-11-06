@@ -155,3 +155,13 @@ section ul {
   width: 200px;
   height: 350px;
 }
+
+input {
+  border: 1px solid black;
+}
+input:focus {
+  background-color: #e6e6e6;
+}
+fieldset {
+  margin-bottom: 4%;
+}

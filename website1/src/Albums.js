@@ -1,13 +1,4 @@
 import './App.css'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
-import App from './App.js';
-import FavSongs from './FavSongs';
-import Drip from './Drip';
 
 
 export default function Albums(){
@@ -21,6 +12,7 @@ export default function Albums(){
                     <a href="/FavSongs">Favortie Songs</a>
                     <a className="currenttab" href="/Albums">Albums</a>
                     <a href="/Drip">Drip</a>
+                    <a href="/Purchase">Purchase</a>
                 </nav>
             </header>
 
