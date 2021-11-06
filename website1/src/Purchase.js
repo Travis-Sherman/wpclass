@@ -1,3 +1,9 @@
+import './App.css'
+import DripDrown2 from './images/DriporDrown2.jpg';
+import Wunna from './images/Wunna.jpeg';
+import SL2 from './images/Slime_Lang2.jpeg';
+import DripHarder from './images/Drip_Harder.jpg';
+
 export default function Purchase(){
 
     return(
@@ -9,16 +15,37 @@ export default function Purchase(){
                     <a href="/">Home</a>
                     <a href="/FavSongs">Favortie Songs</a>
                     <a href="/Albums">Albums</a>
-                    <a className="currenttab" href="/Drip">Drip</a>
+                    <a href="/Drip">Drip</a>
+                    <a className="currenttab" href="/Purchase">Purchase</a>
                 </nav>
             </header>
+
             <body id="body">
+
+                <h2>Select an album to purchase and input your shipping information. No Payment required :)
+                </h2>
+
+                <img class = "preview" src={DripDrown2} alt="Drip or Drown 2 album cover"/>
+                
+                <img class = "preview" src={Wunna} alt="Wunna album cover"/>
+                
+                <img class = "preview" src={SL2} alt="Slime Language 2 album cover"/>
+
+                <img class = "preview" src={DripHarder} alt="Drip Harder album cover"/>
+
                 <form>
                     <fieldset>
-                        <legend>Shipping Information</legend>
-                        <label for ="shippingName">Name:</label>
+                        <legend>Shipping and Purchase Information</legend>
+                        <label for="Album">Choose an Album/Mixtape: </label>
+                        <select name="Album" id="album" required>
+                            <option value="Drip or Drown 2">Drip or Drown 2</option>
+                            <option value="Wunna">Wunna</option>
+                            <option value="Drip Harder">Drip Harder</option>
+                            <option value="Slime Language 2">Slime Language 2</option>
+                        </select><br/>
+                        <label for ="shippingName">Name: </label>
                         <input type = "text" name = "shipName" id = "shippingName" required/><br/>
-                        <label for = "shippingzip">Zip code:</label>
+                        <label for = "shippingzip">Zip code: </label>
                         <input type = "text" name = "shipZip" id = "shippingZip" pattern = "[0-9]{5}" required/><br/>
                     </fieldset>
                     <input type="checkbox" id="same" name="same" onChange={()=> billingFunction()}/>
@@ -26,9 +53,9 @@ export default function Purchase(){
                             
                     <fieldset> 
                         <legend>Billing Information</legend>
-                        <label for ="billingName">Name:</label>
+                        <label for ="billingName">Name: </label>
                         <input type = "text" name = "billName" id = "billingName" required/><br/>
-                        <label for = "billingzip">Zip code:</label>
+                        <label for = "billingzip">Zip code: </label>
                         <input type = "text" name = "billZip" id = "billingZip" pattern = "[0-9]{5}" required/><br/>
                         </fieldset>
                     <input type = "submit" value = "Verify" />
