@@ -1,6 +1,4 @@
-# Assignment 1
-Here's the link to my App.js - https://github.com/Travis-Sherman/wpclass/blob/master/website1/src/App.js
+###This Website is Dedicted to Gunna by gradually learning more in my Web Programming class.
 
-## Demo
-![](wp-website1.gif)
+
 
