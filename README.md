@@ -4,6 +4,6 @@ This Website is dedicted to Gunna by me gradually learning more about Html, Css,
 https://github.com/Travis-Sherman/wpclass/tree/master/website1/src
 
 ## Demo
-![Gunna Website] (https://github.com/Travis-Sherman/wpclass/blob/master/gunnawebsite.gif)
+![Gunna Website](gunnawebsite.gif)
 
 
