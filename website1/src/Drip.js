@@ -17,6 +17,7 @@ export default function Drip(){
                     <a href="/Albums">Albums</a>
                     <a className="currenttab" href="/Drip">Drip</a>
                     <a href="/Purchase">Purchase</a>
+                    <a href="/Pictures">Pictures</a>
                 </nav>
             </header>
             <body id="body">

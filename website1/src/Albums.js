@@ -13,6 +13,7 @@ export default function Albums(){
                     <a className="currenttab" href="/Albums">Albums</a>
                     <a href="/Drip">Drip</a>
                     <a href="/Purchase">Purchase</a>
+                    <a href="/Pictures">Pictures</a>
                 </nav>
             </header>
 

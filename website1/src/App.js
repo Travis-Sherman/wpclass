@@ -10,6 +10,7 @@ import Albums from './Albums';
 import Drip from './Drip';
 import Home from './Home';
 import Purchase from './Purchase';
+import Pictures from './Pictures';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Route path="/Albums" exact component={Albums}/>
     <Route path="/Drip" exact component={Drip}/>
     <Route path="/Purchase" exact component={Purchase}/>
+    <Route path="/Pictures" exact component={Pictures}/>
   </Switch>
   </Router>
   </div>

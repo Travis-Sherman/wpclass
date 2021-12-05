@@ -17,6 +17,7 @@ export default function Purchase(){
                     <a href="/Albums">Albums</a>
                     <a href="/Drip">Drip</a>
                     <a className="currenttab" href="/Purchase">Purchase</a>
+                    <a href="/Pictures">Pictures</a>
                 </nav>
             </header>
 

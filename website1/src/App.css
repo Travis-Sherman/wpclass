@@ -264,8 +264,8 @@ fieldset {
   }
 
   img {
-    max-height: 300px;
-    max-width: 450px;
+    height: auto;
+    width: 40%;
   }
 
   div ul {
