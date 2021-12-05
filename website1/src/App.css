@@ -1,3 +1,4 @@
+/* CSS for small screens*/
 .App {
   align-content: center;
 }
@@ -161,6 +162,7 @@ fieldset {
 }
 
 @media all and (min-width: 800px) {
+  /* CSS for medium-sized screens*/
   .table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -320,6 +322,7 @@ fieldset {
 }
 
 @media all and (min-width: 1200px) {
+  /* CSS for large screens*/
   #image {
     line-height: 650px;
     width: 45%;

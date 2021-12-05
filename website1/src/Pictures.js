@@ -23,7 +23,7 @@ export default function Pictures(){
 
             <body>
                 <p>Here are some of my favorite pictures of Gunna and his homies.</p>
-                <div>
+                <div>  {/* Pictures of Gunna in a gallery fashion */}
                     <img src={gunnapic1} className='img-reponsive' alt='Gunna Portrait' style={{padding: '1%'}}/>
                     <img src={gunnapic3} className='img-reponsive' alt='Gunna and Lil Baby' style={{padding: '1%'}}/>
                     <img src={gunnapic2} className='img-reponsive' alt='Gunna Skybox' style={{padding: '1%'}}/>

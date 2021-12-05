@@ -24,7 +24,7 @@ export default function Purchase(){
             <body id="body">
 
                 <h2>Select an album to purchase and input your shipping information. No Payment required :)
-                </h2>
+                </h2>  {/* Pictures of Gunna's projects */}
 
                 <img class = "preview" src={DripDrown2} alt="Drip or Drown 2 album cover"/>
                 
@@ -34,7 +34,7 @@ export default function Purchase(){
 
                 <img class = "preview" src={DripHarder} alt="Drip Harder album cover"/>
 
-                <form>
+                <form>  {/* form to take in user's name and zipcode for shipping and billing */}
                     <fieldset>
                         <legend>Shipping and Purchase Information</legend>
                         <label for="Album">Choose an Album/Mixtape: </label>
@@ -70,6 +70,7 @@ export default function Purchase(){
     );
 }
 
+ {/* Function that takes a person's shipping info and copies it to their billing info if tick box is checked*/}
 function billingFunction(){
     if (document.getElementById('same').checked){
         var shippingName =  document.getElementById('shippingName').value;

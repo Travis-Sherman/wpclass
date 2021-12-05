@@ -25,7 +25,7 @@ export default function Drip(){
                 <div id = "image">
                     Hover over an image below to display here.
                 </div>
-	
+                 {/* Photos of Gunna */}
                 <img class = "preview" src={Drip1} alt="Wool Coat"
                     onMouseEnter={() => upDatePic(Drip1, 'Wool Coat')}
                     onMouseOut={() => unDo()}/>
@@ -46,12 +46,12 @@ export default function Drip(){
         </div>
     );
 }
-
+  {/* Function to display picture when hovered */}
 function upDatePic(previewPic, previewAlt) {
     document.getElementById('image').innerHTML = previewAlt ;
     document.getElementById('image').style.backgroundImage = "url(" + previewPic + ")";
 }
-
+  {/* Function to leave display blank */}
 function unDo() {
 
     document.getElementById('image').style.backgroundImage = "url('')"

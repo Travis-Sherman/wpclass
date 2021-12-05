@@ -7,7 +7,7 @@ function Home() {
  <div>
     <header>
         <h1 style={{textAlign:"center"}}>Gunna Wunna Drip</h1> 
-        <nav>
+        <nav>  {/* Navigation  */}
           <a className="currenttab" href="/">Home</a>
           <a href="/FavSongs">Favortie Songs</a>
           <a href="/Albums">Albums</a>
@@ -22,9 +22,9 @@ function Home() {
         <div>
 
             <section>
-                <div>
+                <div> 
                   <section style={{alignItems:"center"}}>
-                    <ul>
+                    <ul>  {/* info on gunna */}
                         <li>Named Sergio Giavanni Kitchens</li>
                         <li>Born June 14, 1993 in College Park, Ga</li>
                         <li>Heavily Associated with YSL and Lil Baby</li>
@@ -34,7 +34,7 @@ function Home() {
 
                 <div>
                     <section>
-                      <ul>
+                      <ul>  {/* Articles about Gunna */}
                           <li>
                           <a href="https://youtu.be/_hYs5I__DKo" target="_blank" rel="noreferrer">10 Things Gunna Can't Live Without</a>
                           </li>
@@ -53,7 +53,7 @@ function Home() {
 
                 <div>
                   <section>
-                    <ul>
+                    <ul>  {/* Gunna's social media */}
                         <li>
                             <a className ="a" href="https://www.instagram.com/gunna/?hl=en" target="_blank" rel="noreferrer">Instagram</a>
                         </li>
@@ -73,8 +73,8 @@ function Home() {
             </section>
           
         </div>
-        
-        <section classname="media">
+
+        <section classname="media">  {/* Gunna's Baby Birkin youtbe video */}
           <iframe width="80%" height="500px" //To autoplay a youtube video I added autoplay=1 to the src link below
             src="https://www.youtube.com/embed/3BOuz4dBkkE?start=25&autoplay=1&mute=1" title="Gunna Baby Birkin">
               Your browser does not allow video.
