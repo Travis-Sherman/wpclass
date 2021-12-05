@@ -25,11 +25,16 @@ export default function Pictures(){
                 <p>Here are some of my favorite pictures of Gunna and his homies.</p>
                 <div>
                     <img src={gunnapic1} className='img-reponsive' alt='Gunna Portrait' style={{padding: '1%'}}/>
-                    <img src={gunnapic2} className='img-reponsive' alt='Gunna Skybox' style={{padding: '1%'}}/>
                     <img src={gunnapic3} className='img-reponsive' alt='Gunna and Lil Baby' style={{padding: '1%'}}/>
+                    <img src={gunnapic2} className='img-reponsive' alt='Gunna Skybox' style={{padding: '1%'}}/>
+                    
                     <img src={yslpic} className='img-reponsive' alt='Slime Language 2 album cover' style={{padding: '1%'}}/>
                 </div>
             </body>
+
+            <footer>
+                <p>This page was created by Travis Sherman</p>
+            </footer>
         </div>
     );
 }
