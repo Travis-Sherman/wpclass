@@ -18,7 +18,7 @@ export default function FavSongs(){
             <body>
             <div>
           <h2 className="header2">My Ranking of my Favorite Songs from Gunna</h2>
-          <p>This ranking is based on Aura-40%, Flow-25%, Beat-20%, and Lyrics-15%</p>
+          <p>This ranking is based on Aura-35%, Flow-25%, Lyrics-25, and Beat-15%%</p>
           <section >
             <table class="table">  {/* Chart of my favorite Gunna songs */}
               <tr>
